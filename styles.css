@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box; 
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .col-1 {
+    flex: 3;
+    background-image: url(https://media1.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif?cid=ecf05e47zo3l3ounn1doo0fjkc5jp8tpqvg5ud4m6fxap0el&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+  .col-1 > .logo {
+    font-size: 4em;
+    text-align: center;
+    background-color: rgba(70, 70, 70, 0.25);
+    padding: 1em;
+    font-weight: bolder;
+    margin: 3em 0;
+  }
+
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  article > h1 {
+    margin-bottom: 4em;
+  }
+  
+  .content > article {
+    flex: 3;
+    min-height: 55vh;
+  }
+
+  header {
+    font-size: 1.5em;
+    font-weight: 400;
+
+  }
+
+  header, footer {
+    background-color: rgb(17, 17, 17);
+    padding: 2em;
+  }
+  
+  article {
+    background-color: rgb(40, 40, 40);
+    padding:5em 3em;
+  }
+
+  button {
+    font-size: large;
+    background-color: rgb(40, 40, 40);
+    border: solid blue;
+    padding: 1em 3em;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+
+  td {
+    padding-bottom: 20px;
+    padding-right: 80px;
+  }
+
+  form {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  input {
+    color: black;
+  }
+
+  a {
+    color: blue;
+  }
